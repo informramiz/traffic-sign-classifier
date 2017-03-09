@@ -11,6 +11,9 @@ Built and trained a convolutional neural network based on LeNet-5 CNN to classif
 - Normalize images
 - Shuffle them all
 - Do train, test and validation split
+- Train CNN
+- Run CNN on test data
+- Predict traffic signs
 
 
 ### Dependencies
