@@ -1,4 +1,17 @@
-Built and trained a convolutional neural network to classify traffic signs. Trained a model so it can decode traffic signs from natural images by using the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). 
+# Introduction
+
+Built and trained a convolutional neural network based on LeNet-5 CNN to classify traffic signs using **TensorFlow** library. Trained a model so it can decode traffic signs from natural images by using the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). I got 93% accuracy on validation data set.
+
+**Visualization of this CNN**
+
+![visualization of cnn](cnn-visualization1.png)
+
+# Pipeline
+- Resize images if necessary
+- Normalize images
+- Shuffle them all
+- Do train, test and validation split
+
 
 ### Dependencies
 
@@ -25,4 +38,8 @@ cd CarND-Traffic-Signs
 jupyter notebook Traffic_Signs_Recognition.ipynb
 ```
 3. Follow the instructions in the `Traffic_Signs_Recognition.ipynb` notebook.
+
+# License 
+
+This code is licensed under [MIT License](https://opensource.org/licenses/MIT)
 
